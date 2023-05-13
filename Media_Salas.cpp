@@ -6,13 +6,19 @@ int main() {
     //Variaveis
     float media;
     int sala[6];
-    //Array das salas
-    sala[0] = 35;
-    sala[1] = 4;
-    sala[2] = 20;
-    sala[3] = 22;
-    sala[4] = 36;
-    sala[5] = 30;
+    //Pergunta quantos alunos tem em cada sala
+    cout << "Quantos alunos tem na sala 1? ";
+    cin >> sala[0];
+     cout << "Quantos alunos tem na sala 2? ";
+    cin >> sala[1];
+     cout << "Quantos alunos tem na sala 3? ";
+    cin >> sala[2];
+     cout << "Quantos alunos tem na sala 4? ";
+    cin >> sala[3];
+     cout << "Quantos alunos tem na sala 5? ";
+    cin >> sala[4];
+     cout << "Quantos alunos tem na sala 6? ";
+    cin >> sala[5];
     //Condição para mostrar as salas para os usuarios
     for(int i = 0; i < 6; i++) {
         cout << "A sala " << i + 1 << " tem " << sala[i] << " alunos" << endl;
@@ -28,31 +34,31 @@ int main() {
         cout << "A sala " << 1 << " está abaixo da media" << endl;
     }
     if(sala[1] > media) {
-        cout << "A sala " << 2 << " está a cima da media" << endl;
+        cout << "A sala " << 2 << " está acima da media" << endl;
     }
     else {
         cout << "A sala " << 2 << " está abaixo da media" << endl;
     }
     if(sala[2] > media) {
-        cout << "A sala " << 3 << " está a cima da media" << endl;
+        cout << "A sala " << 3 << " está acima da media" << endl;
     }
     else {
         cout << "A sala " << 3 << " está abaixo da media" << endl;
     }
     if(sala[3] > media) {
-        cout << "A sala " << 4 << " está a cima da media" << endl;
+        cout << "A sala " << 4 << " está acima da media" << endl;
     }
     else {
         cout << "A sala " << 4 << " está abaixo da media" << endl;
     }
     if(sala[4] > media) {
-        cout << "A sala " << 5 << " está a cima da media" << endl;
+        cout << "A sala " << 5 << " está acima da media" << endl;
     }
     else {
         cout << "A sala " << 5 << " está abaixo da media" << endl;
     }
     if(sala[5] > media) {
-        cout << "A sala " << 6 << " está a cima da media" << endl;
+        cout << "A sala " << 6 << " está acima da media" << endl;
     }
     else {
         cout << "A sala " << 6 << " está abaixo da media" << endl;
@@ -60,4 +66,3 @@ int main() {
 
 return 0;
 }
-
