@@ -63,6 +63,25 @@ int main() {
     else {
         cout << "A sala " << 6 << " está abaixo da media" << endl;
     }
+    //Variavel para maior ou menor numero de aluno
+    int maior_sala = 0;
+    int menor_sala = 0;
+    //Condição para descobrir qual sala tem o maior ou menor numero de alunos
+    for (int a = 1; a < 6 ; a++) {
+        if (sala[a] > sala[maior_sala]) {
+            maior_sala = a;
+        }
+        if (sala[a] < sala[menor_sala]) {
+            menor_sala = a;
+        }
+    }
+
+    // Mostra para o usuario as salas com maior e menor numero de aluno
+    cout << "A sala com o maior número de alunos é a sala " << (maior_sala+1)
+         << " com " << sala[maior_sala] << " alunos." << endl;
+    cout << "A sala com o menor número de alunos é a sala " << (menor_sala+1)
+         << " com " << sala[menor_sala] << " alunos." << endl;
+
 
 return 0;
 }
