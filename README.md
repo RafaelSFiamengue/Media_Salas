@@ -79,4 +79,4 @@ Rafael Fiamengue
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ Ano -  Media das salas pelo usuário
