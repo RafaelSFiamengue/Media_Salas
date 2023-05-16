@@ -65,9 +65,7 @@ Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv
 ## Linguagens, dependencias e libs utilizadas 📚
 ![C++]([https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white))
 
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
+
 
 ## Resolvendo Problemas 
 Todos os problemas foram resolvidos
